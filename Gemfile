@@ -8,10 +8,10 @@ gem 'net-smtp', require: false
 gem 'json'
 
 gem 'eventmachine', '~> 1.2', '>= 1.2.7'
-gem 'thin', '~> 1.8'
-gem 'sinatra', '~> 3.2'
-gem 'rack', '~> 2.2'
-gem 'rack-protection', '~> 3.2.0'
+gem 'thin', '~> 2.0', '>= 2.0.0'
+gem 'sinatra', '~> 4.0', '>= 4.0.0'
+gem 'rack', '~> 2.2', '>= 2.2.18'
+gem 'rack-protection', '~> 4.0.0'
 gem 'em-websocket', '~> 0.5.3' # WebSocket support
 gem 'uglifier', '~> 4.2'
 gem 'mime-types', '~> 3.5'
@@ -23,7 +23,7 @@ gem 'espeak-ruby', '~> 1.1.0' # Text-to-Voice
 gem 'rake', '~> 13.2'
 gem 'otr-activerecord', '~> 2.2.0'
 gem 'sqlite3', '~> 1.4'
-gem 'rubocop', '~> 1.64.0', require: false
+gem 'rubocop', '~> 1.66.0', require: false
 
 # Geolocation support
 group :geoip do
